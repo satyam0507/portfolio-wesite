@@ -1,0 +1,232 @@
+﻿
+body {
+    font-family:Cambria;
+}
+.logo{
+    margin-top:30px;
+     float:left;
+     margin-left:40px;
+}
+nav{
+    float:right;
+    margin-top:30px;
+    margin-right:40px;
+}
+
+nav a{
+    text-transform:uppercase;
+    text-decoration:none;
+    display:inline-block;
+    margin-left:20px;
+    color:white;
+    font-weight:300;
+    font-size:14px;
+    letter-spacing:0.09em;
+}
+header{
+    height:450px;
+    background-image:url(image/computer-1176260_1920.jpg);
+    background-size:cover;
+}
+footer{
+    height:160px;
+    background-image:url(image/computer-1176260_1920.jpg);
+    background-size:cover;
+}
+#contactsection,#worksection{
+    background-color:#DEE8F0;
+    /*height:600px;*/
+}
+header h1{
+    clear:both;
+    text-align:center;
+    font-size:72px;
+    font-weight:900;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    margin-bottom:0px;
+    padding-top:50px;
+}
+span{
+    display:inline-block; 
+    padding:0.3em;
+    border:solid;
+    border-color:white;
+    border-width:10px;
+}
+header p{
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:16px;
+    letter-spacing:0.1em;
+}
+footer p{
+    clear:both;
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:16px;
+    letter-spacing:0.1em;
+}
+#aboutme{
+    /*height:1000px;*/
+    background-color:white;
+    text-transform:uppercase;
+    color:#808080;
+    margin-top:100px;
+    /*width:900px;*/
+    /*margin-left:200px;*/
+    text-align:center;
+}
+#aboutme svg{
+    height:100px;
+    width:100px;
+    background-color:#FE2834;
+    border-radius:50%;
+    margin-left:25px;
+    margin-right:25px;
+}
+#aboutme img{
+    border-radius:50%;
+    margin-left:25px;
+    margin-right:25px;
+}
+section p{
+
+    margin-top:50px;
+    text-align:center;
+    text-transform:none;
+    padding-left:200px;
+    padding-right:200px;
+     font-size:24px;
+    font-weight:400;
+}
+#aboutme ul{
+    list-style:none; 
+    text-align:left;
+    text-transform:none;
+    font-size:18px;
+    margin-top:100px;
+    margin-bottom:100px;
+    display:inline-block;
+} 
+#aboutme li{
+    padding:10px;
+}
+
+ #communication{
+      height: 8px; border: 0; 
+      width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+      
+ }
+ #organization{
+    
+      height: 8px; border: 0; 
+        width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+ }
+
+ #learning{
+          height: 8px; border: 0; 
+      width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+ }
+ #planning{
+    
+      height: 8px; border: 0; 
+      width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+ }
+ #design{
+          height: 8px; border: 0; 
+      width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+ }
+ #Programming{
+      height: 8px; border: 0; 
+      width:300px;
+      box-shadow: inset 0 12px 12px 2px  rgb(255, 0, 0);
+ }
+ 
+ #skills ,#project,#contact {
+     text-align:center;
+     padding-top:50px;
+     text-transform:uppercase;
+     color:#808080;
+ }
+ 
+ #projectsection{
+     /*height:800px;*/
+ }
+
+ #projectcontaint{
+     /*width:1000px;*/
+     /*margin-left:150px;*/
+     padding-left:200px;
+     padding-right:200px;
+      }
+ #project-1{
+    
+ }
+ #project-2{
+     display:none;
+ }
+ #buttonpre{
+     display:inline-block;
+     /*margin-left:420px;*/
+     padding-top:50px;
+     padding-right:15%;
+ }
+ #buttonnext{
+     display:inline-block;
+     /*margin-left:420px;*/
+     padding-left:15%;
+ }
+ #projectsection hr{
+        height: 6px; border: 0; 
+      width:60%;
+      box-shadow: inset 0 12px 12px 6px  rgb(255, 0, 0);
+ }
+ .projecttitle{
+
+     text-align:center;
+     text-transform:uppercase;
+
+ }
+ .projectdis{
+     display:block;
+    margin:10px auto;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:15%;
+    padding-right:10%;
+ }
+ .teamsize,.tools{
+     margin-top:20px;
+     display:block;
+     text-transform:uppercase;
+     text-align:center;
+ }
+
+ #email{
+          font-size:72px; 
+            color:#cfc068;
+            padding-left:100px;
+            padding-right:100px;
+
+    }
+ #contactsection svg{
+     margin-left:40px;
+ }
+ #contactsection hr{
+       height: 6px; border: 0; 
+      width:50%;
+      box-shadow: inset 0 12px 12px 6px  rgb(255, 0, 0);
+ }
+
+

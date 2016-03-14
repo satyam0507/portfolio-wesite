@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--https://plus.google.com/+SatyamSingh0507/-->
+    <meta name="keywords" content="satyam,singh,satyam singh,indian,student,niet,b.etch,information,technology,information technology" />
+    <meta  charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SATYAM</title>
+    
+    <link rel="icon" href="image/layers.png" type="image/gif" sizes="16x16">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+$(function () {
+                                smoothScrool(300);
+                                //$('#image').hide();
+
+                                $('#buttonnext').click(function () {
+
+                                                                              $('#project-1').hide();
+                                                                              $('#project-2').show();
+                                                                              $('#buttonpre').show();
+
+                                                                   }
+                                                      );
+
+
+                                $('#buttonpre').click(function () {
+
+                                                                             $('#project-2').hide();
+                                                                             $('#project-1').show();
+
+                                                                   }
+
+                                                       );
+
+                                $('#note,#coffy,#linkedin,#player').hover(function () {
+                                                                    $(this).attr("fill","white");
+                                         
+                                                              },
+                                                   function () {
+
+                                                                    $(this).attr("fill", "black");
+                                                                
+                                                   }
+
+                                                );
+
+
+
+
+                                $('#facebook,#twitter,#liknkedin1,#youtube').hover(function () {
+                                                                    $(this).attr("fill", "red");
+
+                                },
+                                                   function () {
+
+                                                       $(this).attr("fill", "black");
+                                                   }
+
+                                                );
+                                
+                                $('#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9,#image10').hover(function () {
+
+                                    $(this).fadeTo("fast", .25);
+                                   
+                                                                    
+                                },
+                                function () {
+                                    $(this).fadeTo("fast",1);
+                                
+                                }
+                                                  );
+
+
+
+             });
+
+        function smoothScrool(duration) {
+
+            $('a[href^="#"]').on('click', function (event) {
+                var target = $($(this).attr('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, duration);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+            <path fill="white" d="M59.073,44.19l-10.363-4.49l-14.917,5.967c-0.537,0.214-1.165,0.321-1.793,0.321c-0.627,0-1.254-0.106-1.79-0.32
+		l-14.921-5.968L4.927,44.19c-0.472,0.204-0.467,0.525,0.01,0.716l26.199,10.479c0.477,0.191,1.251,0.191,1.729,0l26.199-10.479
+		C59.54,44.715,59.545,44.394,59.073,44.19z" />
+            <path fill="white" d="M59.073,32.088l-10.364-4.491l-14.916,5.966c-0.536,0.215-1.165,0.322-1.792,0.322c-0.628,0-1.256-0.107-1.793-0.321
+		l-14.918-5.967L4.927,32.088c-0.472,0.204-0.467,0.525,0.01,0.716l26.199,10.479c0.477,0.191,1.251,0.191,1.729,0l26.199-10.479
+		C59.54,32.613,59.545,32.293,59.073,32.088z" />
+            <path fill="white" d="M4.937,20.702l13.662,5.465l12.537,5.015c0.477,0.191,1.251,0.191,1.729,0l12.541-5.016l13.658-5.463
+		c0.477-0.191,0.482-0.511,0.01-0.716L32.854,8.625c-0.472-0.204-1.237-0.204-1.708,0L4.927,19.986
+		C4.455,20.191,4.46,20.511,4.937,20.702z" />
+</g>
+</svg>
+
+        </div>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <h1><span>satyam singh</span> </h1>
+        <p>learner//designer//thinker</p>
+    </header>
+    <section id="aboutme">
+        <h1 id="about">About Myself</h1>
+        <div id="aboutme_logo">
+            <a href="resourse/Satyam SIngh.pdf">
+                <svg version="1.1" id="note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                <g>
+                <path d="M23.564,14.456h16.857c0.553,0,1-0.447,1-1v-3.161h-4.429V7.73c0-1.104-0.896-2-2-2h-6c-1.104,0-2,0.896-2,2v2.565h-4.428
+		v3.161C22.564,14.009,23.011,14.456,23.564,14.456z" />
+                <path d="M43.421,10.295v3.161c0,1.654-1.346,3-3,3H23.565c-1.654,0-3-1.346-3-3v-3.161h-8.572V54.27c0,2.209,1.791,4,4,4h32
+		c2.209,0,4-1.791,4-4V10.295H43.421z M46.992,53.27h-30V20.929h30V53.27z" />
+                <rect x="22.42" y="26.038" width="19.117" height="4" />
+                <rect x="22.514" y="34.133" width="19.117" height="4" />
+                <rect x="22.608" y="42.229" width="7.752" height="4" />
+                </g>
+            </svg>
+            </a>
+            
+            <a href="resourse/Satyam SIngh.docx">
+                <svg version="1.1" id="coffy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+                <rect x="21.685" y="20.033" width="20.621" height="3" />
+                <rect x="21.685" y="27.223" width="20.621" height="3" />
+                <path d="M51.015,7.999h-38c-0.553,0-1,0.447-1,1v33.323c-0.011,0.096-0.029,0.191-0.029,0.29c0,4.912,3.681,8.972,8.428,9.589
+		l-0.029,0.022l29.631,3.778c1.104,0,2-0.895,2-2V8.999C52.015,8.446,51.567,7.999,51.015,7.999z M47.015,50.206l-19.84-11.635
+		c-0.466-0.296-0.844-0.089-0.844,0.464v3.422v-0.014c-0.004,0.057,0,0.111,0,0.169c0,2.58-2.087,4.679-4.667,4.679
+		s-4.649-1.928-4.649-4.508c0-0.091,0.009-0.22,0-0.308v-0.128V12.999h30V50.206z" />
+</g>
+</svg>
+            </a>
+            <img src="image/photo.JPG" />
+            <a href="resourse/Certificate_1-page-001.jpg">
+                <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path d="M54.227,12.611c-0.338-0.336-0.736-0.505-1.196-0.505c-0.229,0-0.712,0.188-1.446,0.559
+	c-0.735,0.372-1.515,0.786-2.336,1.248c-0.823,0.459-1.797,0.875-2.921,1.247c-1.123,0.371-2.163,0.559-3.12,0.559
+	c-0.884,0-1.664-0.168-2.336-0.505c-2.229-1.044-4.168-1.823-5.814-2.337c-1.646-0.513-3.416-0.771-5.311-0.771
+	c-3.272,0-6.999,1.064-11.177,3.188c-0.862,0.43-1.48,0.763-1.88,1.007l-0.397-2.911c0.897-0.779,1.476-1.914,1.476-3.195
+	c0-2.347-1.902-4.249-4.249-4.249c-2.347,0-4.249,1.902-4.249,4.249c0,1.531,0.818,2.862,2.032,3.61l5.74,42.09
+	c0.171,1.253,1.243,2.162,2.474,2.162c0.112,0,0.226-0.007,0.341-0.022c1.368-0.188,2.326-1.447,2.139-2.815L19.69,38.303
+	c4.186-2.077,7.807-3.124,10.853-3.124c1.293,0,2.554,0.193,3.783,0.583c1.23,0.391,2.253,0.815,3.067,1.274
+	c0.814,0.46,1.775,0.886,2.88,1.274c1.107,0.39,2.2,0.585,3.279,0.585c2.726,0,5.991-1.027,9.796-3.08
+	c0.478-0.248,0.828-0.492,1.049-0.731c0.221-0.239,0.332-0.579,0.332-1.021V13.806C54.729,13.347,54.562,12.948,54.227,12.611z" />
+</svg>
+            </a>
+            <a href="resourse/Certificate_2-page-001.jpg">
+                <svg version="1.1" id="player" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path d="M54.227,12.611c-0.338-0.336-0.736-0.505-1.196-0.505c-0.229,0-0.712,0.188-1.446,0.559
+	c-0.735,0.372-1.515,0.786-2.336,1.248c-0.823,0.459-1.797,0.875-2.921,1.247c-1.123,0.371-2.163,0.559-3.12,0.559
+	c-0.884,0-1.664-0.168-2.336-0.505c-2.229-1.044-4.168-1.823-5.814-2.337c-1.646-0.513-3.416-0.771-5.311-0.771
+	c-3.272,0-6.999,1.064-11.177,3.188c-0.862,0.43-1.48,0.763-1.88,1.007l-0.397-2.911c0.897-0.779,1.476-1.914,1.476-3.195
+	c0-2.347-1.902-4.249-4.249-4.249c-2.347,0-4.249,1.902-4.249,4.249c0,1.531,0.818,2.862,2.032,3.61l5.74,42.09
+	c0.171,1.253,1.243,2.162,2.474,2.162c0.112,0,0.226-0.007,0.341-0.022c1.368-0.188,2.326-1.447,2.139-2.815L19.69,38.303
+	c4.186-2.077,7.807-3.124,10.853-3.124c1.293,0,2.554,0.193,3.783,0.583c1.23,0.391,2.253,0.815,3.067,1.274
+	c0.814,0.46,1.775,0.886,2.88,1.274c1.107,0.39,2.2,0.585,3.279,0.585c2.726,0,5.991-1.027,9.796-3.08
+	c0.478-0.248,0.828-0.492,1.049-0.731c0.221-0.239,0.332-0.579,0.332-1.021V13.806C54.729,13.347,54.562,12.948,54.227,12.611z" />
+</svg>
+            </a>
+        </div>
+            <p>
+                From a small but historically important town named KUSHINAGAR (Cremation place of lord BUDDHA).
+                Currently living in Greater Noida pursuing B.Tech in INFORMATION TECHNOLOGY .
+                Most time of  a day I sit in front of system and design code play fps game and watch TV series and movie.
+                Want to be a good problem solver who have a lot of opportunity to learn and work.
+                Interested in WEB DEVELOPMENT,UI DESIGN,SOFTWARE DEVELOPMENT and can easily work under supervision of expert in these area.
+                If you think I am fit for your work please contact.
+                If not so then give me well wishes.<br />
+                <strong>If you work hard life will be easy else there is no other way </strong>
+                </p>
+        <div id="aboutme_stonghold">
+            <ul>
+                <li >Communication</li>
+                <li> <hr id="communication"/></li>
+                <li>Learning</li>
+                <li><hr id="learning" /></li>
+                <li> Visual Design </li>
+                <li><hr id="design" /></li>
+            </ul>
+            <ul>
+                <li>Organization</li>
+                <li><hr id="organization" /></li>
+                <li>Planning</li>
+                <li><hr id="planning" /></li>
+                <li>  Programming</li>
+                <li><hr id="Programming" /></li>
+            </ul>
+        </div>
+    </section>
+    <section id="worksection">
+        <h1 id="skills">skills</h1>
+        
+        <div style="margin:100px 150px 0px 150px;padding-bottom:150px" >
+            
+            <a href="test.html"><img src="image/asp.jpg" id="image1" /></a>
+            <a href="test.html"><img src="image/c-programming.jpg"  id="image2"/></a>
+            <a href="test.html"><img src="image/css3_logo_0.png"  id="image3"/></a>
+            <a href="test.html"><img src="image/Html.jpg"  id="image4"/></a>
+            <a href="test.html"><img src="image/jquery.png"  id="image5"/></a>
+            <a href="test.html"><img src="image/mysql.png"  id="image6"/></a>
+            <a href="test.html"><img src="image/photoshop.png"  id="image7"/></a>
+            <a href="test.html"><img src="image/visual-studio.jpg"  id="image8"/></a>
+        </div>
+               
+    </section>
+    <section id="projectsection">
+        <h1 id="project">Projects</h1>
+        <hr />
+        <div id="projectcontaint">
+            <div id="project-1">
+                <h1 class="projecttitle">Placement Automation System (PAS)</h1>
+                <p class="projectdis">It is a web base application for the C.M.C. Department .Developed in asp.net framework. In this application all work done by C.M.C was automated and Integrated with each other so that the paper work will be reduced and work will be done with less effort.</p>
+                <h3 class="teamsize">Team size</h3>
+                <div style="text-align:center"> <img src="image/person-icon.png" /><img src="image/person-icon.png" /><img src="image/person-icon.png" /><img src="image/person-icon.png" /></div>
+
+                <h3 class="tools">Tools Used</h3>
+                <div style="text-align:center"><img src="image/asp100.100.png" style="margin-left:5px" /><img src="image/sql-logo.jpg" style="margin-left:5px" /></div>
+            </div>
+            <div id="project-2">
+                <h1 class="projecttitle">C_Editor</h1>
+                <p class="projectdis">Project:  C_Editor An application similar to ‘WordStar’ developed by Rob Barnaby in 1978. At the beginning we have editors like ED and EX (UNIX based) and EDLIN (DOS based). A GUI Application with Context Switching Menu and enabled Mouse interface with user.</p>
+                <h3 class="teamsize">Team Size</h3>
+                <div style="text-align:center"> <img src="image/person-icon.png" /></div>
+                <h3 class="tools">Language Used</h3>
+                <div style="text-align:center"><img src="image/clogo.png" style="margin-left:5px" /></div>
+            </div>
+
+        </div>
+        <hr />
+        <div style="text-align:center;padding-bottom:150px">
+            <a id="buttonpre"><img src="image/success-previous-button.png" id="image9"/></a><a id="buttonnext"><img src="image/success-next-button.png" id="image10"/></a>
+        </div>
+
+    </section>
+    <section id="contactsection" style="padding-bottom:100px">
+        <h1 id="contact">Contact</h1>
+        <p id="email">satyam0507@gmail.com</p>
+
+        <hr />
+        <div style="text-align:center">
+            <a href="https://www.facebook.com/satyam0507">
+                <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path d="M32,7.174C18.311,7.174,7.174,18.311,7.174,32c0,13.689,11.137,24.826,24.826,24.826c13.689,0,24.826-11.137,24.826-24.826
+	C56.826,18.311,45.689,7.174,32,7.174z M38.174,32.874h-4.039c0,6.453,0,14.398,0,14.398h-5.985c0,0,0-7.868,0-14.398h-2.845v-5.088
+	h2.845v-3.291c0-2.357,1.12-6.04,6.04-6.04l4.433,0.017v4.939c0,0-2.695,0-3.219,0c-0.524,0-1.268,0.262-1.268,1.386v2.99h4.56
+	L38.174,32.874z" />
+</svg>
+</a>
+                <a href="https://twitter.com/Satyam___Singh">
+                    <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path d="M32,7.174C18.311,7.174,7.174,18.311,7.174,32c0,13.689,11.137,24.826,24.826,24.826c13.689,0,24.826-11.137,24.826-24.826
+	C56.826,18.311,45.689,7.174,32,7.174z M43.075,26.318c0.011,0.246,0.017,0.494,0.017,0.742c0,7.551-5.747,16.257-16.259,16.257
+	c-3.227,0-6.231-0.945-8.759-2.567c0.447,0.053,0.902,0.08,1.363,0.08c2.678,0,5.141-0.914,7.097-2.446
+	c-2.5-0.046-4.611-1.698-5.338-3.969c0.348,0.068,0.707,0.103,1.074,0.103c0.521,0,1.027-0.07,1.506-0.2
+	c-2.614-0.525-4.583-2.834-4.583-5.602c0-0.024,0-0.049,0.001-0.072c0.77,0.427,1.651,0.685,2.587,0.714
+	c-1.532-1.023-2.541-2.773-2.541-4.755c0-1.048,0.281-2.03,0.773-2.874c2.817,3.458,7.029,5.732,11.777,5.972
+	c-0.098-0.419-0.147-0.854-0.147-1.303c0-3.155,2.558-5.714,5.714-5.714c1.643,0,3.128,0.694,4.17,1.804
+	c1.303-0.256,2.525-0.73,3.63-1.387c-0.428,1.335-1.333,2.454-2.514,3.162c1.157-0.138,2.259-0.444,3.282-0.899
+	C45.161,24.508,44.191,25.515,43.075,26.318z" />
+</svg>
+                </a>
+                <a href="https://in.linkedin.com/in/satyam-singh-06023596">
+                    <svg version="1.1" id="liknkedin1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+                    <path d="M36.523,28.472c-2.124,0-3.075,1.168-3.606,1.988v-1.704h-4.002c0.052,1.128,0,12.041,0,12.041h4.002v-6.726
+		c0-0.36,0.025-0.72,0.131-0.976c0.29-0.72,0.948-1.465,2.054-1.465c1.448,0,2.027,1.105,2.027,2.723v6.443h4.002h0.001v-6.906
+		C41.132,30.193,39.157,28.472,36.523,28.472z M32.916,30.502H32.89c0.009-0.014,0.019-0.027,0.026-0.041V30.502z" />
+                    <rect x="22.697" y="28.756" width="4.002" height="12.041" />
+                    <path d="M32,7.174C18.311,7.174,7.174,18.311,7.174,32c0,13.689,11.137,24.826,24.826,24.826c13.689,0,24.826-11.137,24.826-24.826
+		C56.826,18.311,45.689,7.174,32,7.174z M45.165,43.229c0,1.054-0.876,1.91-1.959,1.91H20.625c-1.08,0-1.957-0.855-1.957-1.91
+		V20.385c0-1.055,0.877-1.91,1.957-1.91h22.581c1.082,0,1.959,0.856,1.959,1.91V43.229z" />
+                    <path d="M24.725,22.951c-1.368,0-2.264,0.898-2.264,2.08c0,1.155,0.869,2.08,2.211,2.08h0.026c1.396,0,2.265-0.925,2.265-2.08
+		C26.936,23.85,26.095,22.951,24.725,22.951z" />
+</g>
+</svg>
+                </a>
+                <a href="https://www.youtube.com/embed/gwYGaI0yKFU">
+                    <svg version="1.1" id="youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+                    <path d="M52,12.982H12c-2.2,0-4,1.8-4,4v30.036c0,2.2,1.8,4,4,4H52c2.2,0,4-1.8,4-4V16.982C56,14.782,54.2,12.982,52,12.982z
+		 M28.204,20.789l9.593,6.55l-9.593,6.55V20.789z M48.001,43.212H26.875c-0.57,1.24-1.816,2.105-3.27,2.105s-2.699-0.866-3.27-2.105
+		H16c-0.829,0-1.5-0.672-1.5-1.5s0.671-1.5,1.5-1.5h4.336c0.57-1.24,1.815-2.106,3.27-2.106s2.7,0.866,3.27,2.106h21.126
+		c0.828,0,1.5,0.672,1.5,1.5S48.829,43.212,48.001,43.212z" />
+                    <circle cx="23.605" cy="41.712" r="1.397" />
+</g>
+</svg>
+                </a>
+        </div>
+        <hr/>
+    </section>
+    <footer>
+        <div class="logo">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+            <path fill="white" d="M59.073,44.19l-10.363-4.49l-14.917,5.967c-0.537,0.214-1.165,0.321-1.793,0.321c-0.627,0-1.254-0.106-1.79-0.32
+		l-14.921-5.968L4.927,44.19c-0.472,0.204-0.467,0.525,0.01,0.716l26.199,10.479c0.477,0.191,1.251,0.191,1.729,0l26.199-10.479
+		C59.54,44.715,59.545,44.394,59.073,44.19z" />
+            <path fill="white" d="M59.073,32.088l-10.364-4.491l-14.916,5.966c-0.536,0.215-1.165,0.322-1.792,0.322c-0.628,0-1.256-0.107-1.793-0.321
+		l-14.918-5.967L4.927,32.088c-0.472,0.204-0.467,0.525,0.01,0.716l26.199,10.479c0.477,0.191,1.251,0.191,1.729,0l26.199-10.479
+		C59.54,32.613,59.545,32.293,59.073,32.088z" />
+            <path fill="white" d="M4.937,20.702l13.662,5.465l12.537,5.015c0.477,0.191,1.251,0.191,1.729,0l12.541-5.016l13.658-5.463
+		c0.477-0.191,0.482-0.511,0.01-0.716L32.854,8.625c-0.472-0.204-1.237-0.204-1.708,0L4.927,19.986
+		C4.455,20.191,4.46,20.511,4.937,20.702z" />
+</g>
+</svg>
+        </div>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <p>All Right Reserved</p>
+    </footer>
+</body>
+</html>
